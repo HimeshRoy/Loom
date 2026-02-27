@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loom.in</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="shortcut icon" href="/loom-logo.png" type="image/loom-icon">
+</head>
+
+<body>
+    <header class="container-lg">
+        <div class="row d-flex align-items-center">
+            <div class="col-md-6">
+                <video src="/loom-logo.mp4" autoplay muted width="100"></video>
+            </div>
+            <div class="col-md-6 d-flex justify-content-end">
+                <a href="#" class="text-decoration-none text-dark hover link-primary">
+                    <h4 class="fw-light"><i class="fa-solid fa-location-dot"></i> Set your location</h4>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 d-flex justify-content-start">
+                <nav class="navbar">
+                    <div class="container-fluid">
+                        <form class="d-flex w-100" role="search">
+                            <input class="form-control me-2 w-100" type="search" placeholder="Search for more..."
+                                aria-label="Search" />
+                            <button class="btn btn-outline-danger" type="submit">Search</button>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-md-6 d-flex justify-content-end">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle fs-5 fw-normal" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <i class="fa-regular fa-circle-user"></i> Login
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/signup.html">New customer? <span
+                                            class="text-primary fw-bold fs-6">Sign Up</span></a></li>
+                                <li><a class="dropdown-item" href="/login.html"><i class="fa-regular fa-circle-user"></i> My
+                                        Profile</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-decoration-none link-primary text-dark fs-5" href="/cart.html"><i
+                                class="fa-solid fa-cart-shopping"></i> Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-decoration-none link-primary text-dark fs-5" href="#">Help?</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- main -->
+
+    <main>
+        <section class="container-lg">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="/loomcarousel-1.png" alt="homeimg">
+                </div>
+                <div class="col-md-6">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-interval="2000"
+                        data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                                aria-label="Slide 5"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="/2.png" class="d-block w-100" alt="...">
+
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/3.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/4.png" class="d-block w-100" alt="...">
+
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/5.png" class="d-block w-100" alt="...">
+
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/6.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-lg">
+            <h1 class="text-secondary">Catagories</h1>
+            <div class="row mt-2">
+                <div class="col-md-2 text-center">
+                    <img src="https://rukminim2.flixcart.com/fk-p-flap/196/196/image/f03c562321e764bb.jpg?q=60" alt=""
+                        class="w-75">
+                    <h6 class="mt-1">Fashion</h5>
+                </div>
+                <div class="col-md-2 text-center">
+                    <img src="https://rukminim2.flixcart.com/fk-p-flap/196/196/image/a080ac3397f3612d.png?q=60" alt=""
+                        class="w-75">
+                    <h6 class="mt-1">Electronic</h6>
+                </div>
+                <div class="col-md-2 text-center">
+                    <img src="https://rukminim2.flixcart.com/fk-p-flap/196/196/image/d4d87d1307cd2a29.jpg?q=60" alt=""
+                        class="w-75">
+                    <h6 class="mt-1">Toys & Babys</h6>
+                </div>
+                <div class="col-md-2 text-center">
+                    <img src="https://rukminim2.flixcart.com/fk-p-flap/196/196/image/9be859f78d39cc22.jpg?q=60" alt=""
+                        class="w-75">
+                    <h6 class="mt-1">Furniture</h6>
+                </div>
+                <div class="col-md-2 text-center">
+                    <img src="https://rukminim2.flixcart.com/fk-p-flap/196/196/image/d31d524f681630af.jpg?q=60" alt=""
+                        class="w-75">
+                    <h6 class="mt-1">Beauty</h6>
+                </div>
+                <div class="col-md-2 text-center">
+                    <img src="https://rukminim2.flixcart.com/fk-p-flap/196/196/image/f9ebd80a4825f28e.jpg?q=60" alt=""
+                        class="w-75">
+                    <h6 class="mt-1">Food & Health</h6>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-lg mt-3">
+            <div class="row d-flex align-itemds-center justify-content-center w-100">
+                <img src="/OFFonMensWear.png" alt="ad.img" class=" rounded rounded-5">
+            </div>
+
+            <div class="row mt-3">
+                <h1 class="text-secondary">Top Deals</h1>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="https://kiabi.in/cdn/shop/files/BAQ59_1_ZC1.jpg?v=1725971604&width=1946"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">High Neck Sleeveless Cap Shoulder Satin Maxi Dress</h5>
+                            <h4>$40.00</h4>
+                            <a href="/login.html" class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="https://preview.redd.it/galaxy-s26-ultra-in-official-images-in-a-hero-colour-fhd-v0-k6o6h59rhigg1.jpeg?width=1080&crop=smart&auto=webp&s=2fa37e891af1d7057d77c422d9e2d7b45ec7e052"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung Galaxy S26 Ultra</h5>
+                            <br>
+                            <h4>$3000.00</h4>
+                            <a href="/login.html" class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="https://dcprovide.com/wp-content/uploads/2023/04/hfhfhfh.jpeg" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Gulf Dates</h5>
+                            <br>
+                            <h4>$15.00</h4>
+                            <a href="/login.html" class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="https://pub-95ccf2d427eb4955a7de1c41d3fa57dd.r2.dev/blog-g3fashion-com/2020/07/checks-shirt-for-little-boys-e1597744644333.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Summer Print 9-10 years</h5>
+                            <br>
+                            <h4>$37.00</h4>
+                            <a href="/login.html" class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-lg mt-3">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="text-secondary">Men's Section</h1>
+                </div>
+                <div class="col-md-6 d-flex justify-content-end">
+                    <a class="icon-link icon-link-hover" href="#">
+                        View more
+                        <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+                            <path
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRJwB3M6FPPS5ApBe-YfAMlatL0MByJdaiddpXzaQMu0QSq379Fhy-ESnk9v8wK_Fmj_dlzuD9g7vO1HiRUAwL89Jnj84BoZ6n-pCfAKqxgnlTYsIZNXXDW"
+                            class="card-img-top w-50 align-self-center" alt="..." height="200px">
+                        <div class="card-body">
+                            <h5 class="card-title">Leriya Fashion Men's Formal Button Down Shirt</h5>
+
+                            <h4>$7.40</h4>
+                            <a href="/login.html" class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQu8bH2dZkNwoYUsEr3CNgFe8eQachtvZg4_rjguUCygxG_WLkng4H2dxCPLl8-t-t3CuIDts00VDLkPRQi0-1QEElI4uDSAzDuEnD36NGZjbS6CWxinZQQtA"
+                            class="card-img-top w-50 align-self-center" alt="..." height="200px">
+                        <div class="card-body">
+                            <h5 class="card-title">BULLMER Men's Trendy Shirt & Pants Set</h5>
+
+                            <h4>$10.44</h4>
+                            <a href="/login.html" class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ6kise6yGNj6hobEl6n2GJai94hsMHWlK70TYOXGLw2fWSstBYZOYStSZX-Gy48i6siCDIcZqBJToIs9qnLrT76SiG9iQt4aP_NlkAqDGHZTPUhbsIIb2-"
+                            class="card-img-top w-50 align-self-center" alt="..." height="200px">
+                        <div class="card-body">
+                            <h5 class="card-title">U Turn Men's Casual Printed Striped Shirt</h5>
+
+                            <h4>$9.44</h4>
+                            <a href="/login.html" class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTVLR4lWqaMX3mQVF0_mdOma1pvEb3_YsRHk0F8ZkOLGW3t7aYpAEJ8Gij5aEXiYtaXn78feGCpuJJmWe5RtsTnRhuyoDt7VoqBCo2MicIMZUXXFLoqVXuKtw"
+                            class="card-img-top w-50 align-self-center" alt="..." height="200px">
+                        <div class="card-body">
+                            <h5 class="card-title">Leriya Men's Fashion Full Shirt</h5>
+                            <br>
+                            <h4>$8.00</h4>
+                            <a href="/login.html" class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="container-lg mt-3">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="text-secondary">Women's Section</h1>
+                </div>
+                <div class="col-md-6 d-flex justify-content-end">
+                    <a class="icon-link icon-link-hover" href="#">
+                        View more
+                        <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+                            <path
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRxW4DPVePceC6GtdIZHi7VOO2rL0IRFd7jV9RYa7r7uQIQdELnwOPtv8b5rIq9uvOsYTh7CbR3QFjSBks6zmr1Buz8fAEj4g"
+                            class="card-img-top w-50 align-self-center" alt="..." height="200px">
+                        <div class="card-body">
+                            <h5 class="card-title">Leriya Fashion Women's Korean Style Oversized Long Sleeve Button Down Shirt</h5>
+
+                            <h4>$10.00</h4>
+                            <a href="/login.html" class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRiPQeTiO0Fox-QoGlHToJ5ZUe_DXQBBHQWXorpnKxsKUpPThPJxAj47CQbHGLdAJFsz8NUTVub0QIKFdbMUtvnsYnCJZ2VjkXBJv_dT-zHTdFI5UHyNDds2A"
+                            class="card-img-top w-50 align-self-center" alt="..." height="200px">
+                        <div class="card-body">
+                            <h5 class="card-title">Leriya Women's Printed Maxi Dress</h5>
+                            <br>
+
+                            <h4>$10.44</h4>
+                            <a href="/login.html" class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTHuIE3yLjhS8dnZ7DutKBJKQ7-yvyP-lWkEH3FXzPcrTaN5EnMr7JG-_hfyZPtaPFkT5eUqh2EzGzKZaNBgO9AOjstor2it97zE1XFpUzDJvkBY52ME3La"
+                            class="card-img-top w-50 align-self-center" alt="..." height="200px">
+                        <div class="card-body">
+                            <h5 class="card-title">Leriya Women's Fashion Mini Dress</h5>
+                            <br>
+                            <h4>$9.00</h4>
+                            <a href="/login.html" class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTZi9KlO1Sbv9v6qpv0YOJnejvQpdCCouJtc-bFUcn0RgSzm2Ocq1knpByeVpda_VnRhF3sDTyeUSCnnaoVO39c-2_Qac9badglqpc4ICniozgEtnPoZUY_Avc"
+                            class="card-img-top w-50 align-self-center" alt="..." height="200px">
+                        <div class="card-body">
+                            <h5 class="card-title">Leriya Fashion Co-ord Set for Women Stylish | Summer Cord Set for Women</h5>
+                            
+                            <h4>$8.00</h4>
+                            <a href="/login.html" class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- footer -->
+
+    <footer>
+        <section class="container-fluid bg-danger mt-5 pb-5 d-flex flex-column justify-content-center align-items-center">
+            <div class="row w-90 mt-2 text-light">
+                <p class="w-90">
+                    <strong>Tech-Forward Store</strong><br>
+                    Loom is the future of digital retail. By connecting global brands with a fast, intuitive interface,
+                    we make finding your next favorite item easier than ever. Speed, security, and simplicity—that's the
+                    Loom way.
+                </p>
+                <p class="w-90">
+                    <strong>The Fashion & Lifestyle Boutique</strong> <br>
+                    At Loom, we curate products that tell a story. From the fabric of our apparel to the design of our
+                    home goods, we focus on craftsmanship that lasts. Experience a marketplace built on quality and
+                    style.
+                </p>
+            </div>
+            <section class="container-lg mt-2">
+                <div class="row mt-2 text-light w-fluid ">
+                    <div class="col-md-4">
+                        <h5 class="text-light fw-normal">About</h5>
+                        <ul class="list-group list-unstyled">
+                            <li class="list-item"><a class="text-decoration-none text-light" href="#">Contact Us</a>
+                            </li>
+                            <li class="list-item"><a class="text-decoration-none text-light" href="#">Loom. Stories</a>
+                            </li>
+                            <li class="list-item"><a class="text-decoration-none text-light" href="#">Corporate
+                                    Information</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h5 class="text-light fw-normal">Location</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="fa-solid fa-location-dot"></i> India</li>
+                            <li>contactus@loom.in</li>
+                            <li>+91 9099XXXXXX</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <form class="form-floating">
+                            <input type="email" class="form-control" id="floatingInputValue"
+                                placeholder="name@example.com">
+                            <label for="floatingInputValue">Enter email</label>
+                        </form>
+                        <button type="button" class="btn btn-light text-danger mt-2 align-self-center">Subscribe Now</button>
+                    </div>
+                </div>
+            </section>
+            
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+
+</html>
